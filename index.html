@@ -9,14 +9,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>One Page Wonder - Start Bootstrap Template</title>
+    <title>Jonathan Nguyen</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Javascript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/parallax.js"></script>
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
-    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/half-slider.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,10 +50,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about">About me</a>
                     </li>
                     <li>
-                        <a href="#services">Projects</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
@@ -62,7 +66,7 @@
     </nav>
 
     <!-- Full Width Image Header -->
-    <header class="header-image">
+    <header class="header-image parallax-window" data-parallax="scroll" data-image-src="css/images/johnny-group-dark.png">
         <div class="headline">
             <h1>Jonathan Nguyen</h1>
             <h2>developer, hacker, designer</h2>
@@ -71,37 +75,41 @@
 
     <!-- Page Content -->
     <div class="container">
-
-        <hr class="featurette-divider">
-
+        <hr class="featurette-divider" id="about">
         <!-- First Featurette -->
-        <div class="featurette" id="about">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-right" src="images/portrait.jpg">
-            <h2 class="featurette-heading">This First Heading
-                <span class="text-muted">Will Catch Your Eye</span>
-            </h2>
+            <h2 class="featurette-heading">About me</h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
+    </div>
 
-        <hr class="featurette-divider">
+    <header class="header-image parallax-window" data-parallax="scroll" data-image-src="css/images/landing-dark.png">
+            <div class="imagedivider">
+    </header>   
+
+    <div class="container">
+        <hr class="featurette-divider" id="projects">
 
         <!-- Second Featurette -->
-        <div class="featurette" id="services">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Second Heading
-                <span class="text-muted">Is Pretty Cool Too.</span>
-            </h2>
+            <h2 class="featurette-heading">Projects</h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
+    </div>
 
-        <hr class="featurette-divider">
+    <header class="header-image parallax-window" data-parallax="scroll" data-image-src="css/images/clubday-dark.png">
+            <div class="headline">
+    </header>   
+
+    <div class="container">
+        <hr class="featurette-divider" id="contact">
 
         <!-- Third Featurette -->
-        <div class="featurette" id="contact">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Third Heading
-                <span class="text-muted">Will Seal the Deal.</span>
-            </h2>
+            <h2 class="featurette-heading">Contact</h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
 
@@ -115,16 +123,7 @@
                 </div>
             </div>
         </footer>
-
     </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
 </body>
 
 </html>

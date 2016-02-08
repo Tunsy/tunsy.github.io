@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url(images/johnny-group-dark.png) no-repeat center center scroll;*/
+    /*background: url(images/johnny-group-dark.png) no-repeat center center scroll;*/*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -21,6 +21,11 @@ body {
 
 .headline {
     padding: 300px 0px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.imagedivider{
+    padding: 400px 0px 0px 0px;
     margin-bottom: 0px;
 }
 
@@ -36,21 +41,22 @@ body {
 }
 
 .featurette-divider {
-    margin: 80px 0;
+    margin: 20px;
 }
 
 .featurette {
     overflow: hidden;
+    padding-bottom: 30px;
 }
 
 .featurette-image.pull-left {
     margin-right: 40px;
-    width: 500px;
+    width: 400px;
 }
 
 .featurette-image.pull-right {
     margin-left: 40px;
-    width: 500px;
+    width: 400px;
 }
 
 .featurette-heading {
