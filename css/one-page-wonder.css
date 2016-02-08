@@ -12,7 +12,7 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url(images/clubday.jpg) no-repeat center center scroll;
+    background: url(images/johnny-group-dark.png) no-repeat center center scroll;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -20,19 +20,19 @@ body {
 }
 
 .headline {
-    padding: 120px 0;
+    padding: 300px 0px 0px 0px;
+    margin-bottom: 0px;
 }
 
 .headline h1 {
-    font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    font-size: 110px;
+    color: white;
 }
 
 .headline h2 {
-    font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    font-size: 50px;
+    padding-bottom: 50px;
+    color: white;
 }
 
 .featurette-divider {
