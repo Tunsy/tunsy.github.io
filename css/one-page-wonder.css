@@ -306,12 +306,16 @@ footer .footer-below {
     }
 }
 
+span.glyphicon-file {
+    font-size: 4em;
+}
+
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #022345;
     font-size: 20px;
-    color: #fff;
-    background: 0 0;
+    background: #fff;
+    color: #31679f;
     transition: all .3s ease-in-out;
 }
 
@@ -320,8 +324,8 @@ footer .footer-below {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
-    background: #fff;
+    background: #022345;
+    color: #31679f;
 }
 
 .btn-social {
