@@ -6,6 +6,7 @@
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: Raleway,Arial;
 }
 
 .header-image {
@@ -67,7 +68,7 @@ body {
 
 .navbar-default {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     background-color: #053261;
     border-color: #022345;
@@ -150,7 +151,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Ubuntu, "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
