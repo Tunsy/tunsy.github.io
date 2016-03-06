@@ -130,6 +130,17 @@ body {
     background-repeat: no-repeat;
 }
 
+.modal-side {
+    height: 500px;
+    overflow: hidden;
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+    opacity: .9;
+}
+
 .view {
     height: 300px;
     width: 375px;
@@ -199,9 +210,13 @@ body {
     opacity: 0;
     transition: all 0.2s linear;
 }
-.view-first a.info{
+.view-first a.info {
     opacity: 0;
     transition: all 0.2s ease-in-out;
+}
+span.glyphicon-zoom-in {
+    font-size: 6em;
+    color: white;
 }
 .view-first:hover img { 
     transform: scale(1.1);
@@ -260,7 +275,7 @@ body {
     background-color: rgba(255, 102, 0, 0.9);
 }
 #developersguildModal {
-    background-color: rgba(0, 153, 204,0.9);
+    background-color: rgba(51, 102, 204,0.9);
 }
 
 
