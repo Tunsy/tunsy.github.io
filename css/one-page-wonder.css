@@ -195,6 +195,11 @@ body {
 .view-first img { 
     transition: all 0.2s linear;
 }
+
+.view-first span { 
+    transition: all 0.2s linear;
+}
+
 .view-first .mask {
     opacity: 0;
     background-color: rgba(5, 50, 97, 0.7);
@@ -221,6 +226,11 @@ span.glyphicon-zoom-in {
 .view-first:hover img { 
     transform: scale(1.1);
 } 
+
+.view-first:hover span { 
+    transform: scale(1.1);
+} 
+
 .view-first:hover .mask { 
     opacity: 1;
 }
@@ -264,19 +274,24 @@ span.glyphicon-zoom-in {
   left: 0;
   border-radius: 0px;
   box-shadow: none;
+  color: white;
 }
 
 #firebotsModal {
     background-color: rgba(158,29,32,0.9);
+    color: white;
 }
 #sanctumbreachModal {
     background-color: rgba(153, 51, 153, 0.9); 
+    color: white;
 }
 #roboticsModal {
     background-color: rgba(158,29,32,0.9);
+    color: white;
 }
 #beastlandModal {
     background-color: rgba(255, 102, 0, 0.9);
+    color: white;
 }
 #developersguildModal {
     background: rgba(51, 102, 204,0.9);
