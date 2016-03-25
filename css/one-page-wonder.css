@@ -465,6 +465,11 @@ span.glyphicon-file {
     font-size: 16em;
 }
 
+span.glyphicon-chevron-right {
+    vertical-align: middle;
+    padding-bottom: 4px;
+}
+
 .close{
     font-size: 5em;
 }
