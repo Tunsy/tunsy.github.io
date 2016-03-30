@@ -66,6 +66,14 @@ body {
     color: #053261;
 }
 
+.header-logo {
+    width: 20px;
+    position: relative;
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
 .navbar-default {
     text-transform: uppercase;
     font-family: Ubuntu,"Helvetica Neue",Helvetica,Arial,sans-serif;
