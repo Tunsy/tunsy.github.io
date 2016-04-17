@@ -51,6 +51,10 @@ body {
     padding-top: 20px;
 }
 
+.featurette-image {
+    border-radius: 100%;
+}
+
 .featurette-image.pull-left {
     margin-right: 40px;
     width: 400px;
@@ -72,6 +76,12 @@ body {
     float: left;
     margin-right: 5px;
     margin-top: 3px;
+}
+
+.small-text p{
+    font-size: 14px;
+    color: gray;
+    padding-right: 1300px;
 }
 
 .navbar-default {
